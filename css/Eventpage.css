@@ -1,0 +1,151 @@
+#header{
+    background-image: url(../images/backgroundimage.jpg);
+    height: 1900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#header h1{
+    text-align: center;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    #header{
+        background-image: url(../images/backgroundimage.jpg);
+        height: 5100px;
+        margin-top: -100px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body{
+        margin-right: 0;
+    }
+}
+
+.navbar{
+    background: rgba(2,2,2,0.2);
+    color: white;
+}
+
+.nav-left {
+    margin: 0 auto;
+}
+
+.nav-left li {
+    margin-left: 10px;
+}
+
+.nav-left li:hover{
+    text-decoration: underline;
+}
+
+.nav-left li a: hover{
+    color: aqua;
+}
+
+
+
+.navbar-default .navbar-nav li a : active{
+    background-color: white;
+}
+
+@media screen and (max-width: 768px){
+    .dropdown1 li{
+    background-color:white;
+        border-radius: 20px;
+        margin-top: 5px;
+        padding: 1px;
+        list-style:disc;
+}
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: white;
+}
+
+.navbar-default .container-fluid  .navbar-header>a{
+font-family: 'Charmonman', cursive;
+text-decoration-color: white;
+font-weight: bold;
+background-color:wheat;
+}
+
+
+#rowheight{
+    height: 400px;
+    width: 100%;
+}
+
+.contactpanel{
+    text-align: center;
+    height: 200px;
+    background-image: url(../images/backgroundimage.jpg);
+    color: white;
+}
+
+.contactpanel h3{
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .contactpanel{
+        margin-top: -60px;
+    }
+}
+
+.projectbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: steelblue;
+    height:100px;
+    font-size: 20px;
+}
+
+.projectbar:hover{
+    background-color: skyblue;
+}
+
+.projectbar a{
+    color : white;
+}
+
+.locationbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    height: 100px;
+    font-size: 20px;
+}
+
+.locationbar:hover{
+    background-color: skyblue;
+}
+
+.locationbar a{
+    color: white;
+}
+
+.footer{
+    background-color: black;
+    height: 155px;
+}
+
+.footer ul{
+    width: 100%;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding:20px;
+}
+
+.socialmedia ul li{
+    float: right;
+}
